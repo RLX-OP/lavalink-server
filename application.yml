@@ -1,0 +1,41 @@
+server:
+  port: 2333
+  address: 0.0.0.0
+
+lavalink:
+  server:
+    password: 'youshallnotpass'
+    sources:
+      youtube: true
+      bandcamp: true
+      soundcloud: true
+      twitch: true
+      vimeo: true
+      mixer: true
+      http: true
+      local: false
+    bufferDurationMs: 400
+    frameBufferDurationMs: 4000
+    youtubePlaylistLoadLimit: 6
+    playerUpdateInterval: 5
+    youtubeSearchEnabled: true
+    soundcloudSearchEnabled: true
+    gc-warnings: true
+
+metrics:
+  prometheus:
+    enabled: false
+    endpoint: /metrics
+
+sentry:
+  dsn: ''
+  environment: ''
+
+logging:
+  file:
+    max-history: 5
+    max-size: 10MB
+  path: ./lavalink_logs/
+  level:
+    root: INFO
+    lavalink: INFO
