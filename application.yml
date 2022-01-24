@@ -1,10 +1,12 @@
 server:
   port: ${PORT}
   address: 0.0.0.0
-
+spring:
+  main:
+    banner-mode: log
 lavalink:
   server:
-    password: 'youshallnotpass'
+    password: youshallnotpass
     sources:
       youtube: true
       bandcamp: true
@@ -15,9 +17,7 @@ lavalink:
       http: true
       local: false
     bufferDurationMs: 400
-    frameBufferDurationMs: 4000
-    youtubePlaylistLoadLimit: 6
-    playerUpdateInterval: 5
+    youtubePlaylistLoadLimit: 3
     youtubeSearchEnabled: true
     soundcloudSearchEnabled: true
     gc-warnings: true
@@ -28,14 +28,14 @@ metrics:
     endpoint: /metrics
 
 sentry:
-  dsn: ''
-  environment: ''
+  dsn: ""
 
 logging:
   file:
-    max-history: 5
-    max-size: 10MB
-  path: ./lavalink_logs/
+    max-history: 1
+    max-size: 3MB
+  path: /app/logs/
+
   level:
     root: INFO
     lavalink: INFO
