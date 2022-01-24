@@ -25,10 +25,11 @@ In `.replit` make a keep the following script ```run = "bash replit.sh"```
 Just simple deploy it and u are done.
 </details>
 
-<details>
-  <summary>How to change the password of the lavalink server [Click to expand]</summary>
-Go to "application.yml" file then you will find "password: 'youshallnotpass'" change that to whatever you want the password to be but don't remove "''" because password is a *string*
-</details>
+<br/>
+
+**How to change the password of the lavalink server**
+- Go to "application.yml" file then you will find ```password: 'youshallnotpass'``` change that to whatever you want the password to be but don't remove ```''``` because password is a ***string***
+
 <br/>
 
 ##### Note: You need to use ```secure``` option in your code if your using the lavalink server for discord bots, etc.
