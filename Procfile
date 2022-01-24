@@ -1,1 +1,1 @@
-web: bash heroku.sh
+web: java -jar Lavalink.jar
