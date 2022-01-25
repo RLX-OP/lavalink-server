@@ -7,7 +7,7 @@
 
 ## 🛫 Run the projects
 
-[![Run on Repl.it](https://repl.it/badge/github/rlx-op/lavalink-server)](https://repl.it/github/rlx-op/lavalink-server)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![Run on Repl.it](https://repl.it/badge/github/rlx-op/lavalink-server)](https://repl.it/github/rlx-op/lavalink-server/tree/replit)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![Deploy using Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rlx-op/lavalink-server/tree/heroku)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/rlx-op/lavalink-server)
 
